@@ -1,0 +1,39 @@
+html, body {
+	background-color: #393939;
+  color: white;
+  font: 20px Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+#header {
+	background-color: #4F7CBD;
+	border-bottom: solid 2px white;
+}
+
+#header h1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px 5px 5px 3px;
+  text-align: center;
+  width: auto;
+}
+
+#container {}
+
+li {
+	height: auto;
+	text-align: left;
+}
+
+li:nth-child(odd) {
+	background-color: #2a2a2a;
+}
+
+.title, .episode, .seasep {
+	padding: 5px 0 5px 7px;
+}
+
+.episode, .seasep {
+	font-size: 15px;
+	font-style: italic;
+}
