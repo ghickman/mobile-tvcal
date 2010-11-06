@@ -7,8 +7,8 @@ agent = Mechanize.new
 page = agent.get('http://pogdesign.co.uk/cat/')
 
 form = page.forms.first
-form.username = 'madnashua@gmail.com'
-form.password = '0@3<S.q1U5*g'
+form.username = ''
+form.password = ''
 page = agent.submit(form, form.buttons.first)
 
 # build the xml document from the results
